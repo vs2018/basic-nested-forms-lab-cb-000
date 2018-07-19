@@ -5,11 +5,9 @@
   <%= f.fields_for :ingredients do |addr| %>
 
  
-    <%= addr.label :name %>
-    <%= addr.text_field :name %><br>
+    <%= ingredient.text_field :name %><br>
  
-    <%= addr.label :quantity %>
-    <%= addr.text_field :quantity %><br>
+    <%= ingredient.text_field :quantity %><br>
  
    
   <% end %>
