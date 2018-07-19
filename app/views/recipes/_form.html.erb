@@ -3,17 +3,13 @@
   
  
   <%= f.fields_for :ingredients do |addr| %>
-    <%= addr.label :street_address_1 %>
-    <%= addr.text_field :street_address_1 %><br>
+
  
-    <%= addr.label :street_address_2 %>
-    <%= addr.text_field :street_address_2 %><br>
+    <%= addr.label :name %>
+    <%= addr.text_field :name %><br>
  
-    <%= addr.label :city %>
-    <%= addr.text_field :city %><br>
- 
-    <%= addr.label :state %>
-    <%= addr.text_field :state %><br>
+    <%= addr.label :quantity %>
+    <%= addr.text_field :quantity %><br>
  
     <%= addr.label :zipcode %>
     <%= addr.text_field :zipcode %><br>
